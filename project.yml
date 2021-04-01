@@ -1,0 +1,12 @@
+packages:
+  - name: hibot
+    web: true
+    parameters:
+       dbhost: ${HIBOT_DBHOST}
+       dbport: ${HIBOT_DBPORT}
+       dbname: ${HIBOT_DBNAME}
+       dbuser: ${HIBOT_DBUSER}
+       dbpass: ${HIBOT_DBPASS}
+    actions:
+       - name: query
+         
